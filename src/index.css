@@ -84,6 +84,11 @@ body {
   height: 100vh;
 }
 
+
+.sec img {
+display: none;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -106,7 +111,6 @@ body {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* perfectly centers */
   color: white;
   text-align: center;
   z-index: 2;
@@ -131,6 +135,11 @@ body {
   color: #2d2d2d;
   margin-top: 10px;
   color: #fff;
+}
+
+.hero-content button:hover{
+    background-color: white;
+    color: #e8592a;
 }
 
 
@@ -185,6 +194,8 @@ body {
   .navImage img{
     width: 80%;
     padding-top: 10px;
+    position: relative;
+    right: 5px;
   }
 
   .close-btn {
@@ -227,5 +238,53 @@ body {
     color: #e8592a;
 }
 
+.hero-content h1{
 
+font-size:23px;
+line-height: 2;
+width: 90%;
+margin: auto;
+
+}
+
+.hero-content{
+
+    position: absolute;
+    top: 325px;
+    width: 100%;
+ 
+}
+
+.hero-content button{
+
+    font-size: 16px;
+
+}
+
+
+.body img{
+
+    height: 100%;
+    width: 100%;
+}
+
+.sec img{
+
+    width: 100%;
+    display: block;
+    margin-top: -20px;
+}
+
+}
+
+@media (min-width: 410px) and (max-width:430px) {
+
+.hero-content{
+
+    position: absolute;
+    top: 370px;
+    width: 100%;
+ 
+}
+     
 }
