@@ -9,8 +9,9 @@ function Hero5() {
                 <h2>FEATURED CLASSES</h2>
                 <p>Our featured classes include Yoga, Zumba, HIIT, and strength training to improve your body and mind.
                     Join these expert-led sessions to stay active, energized, and achieve your fitness goals.</p>
+                <Hero6 />
             </div>
-<Hero6 />
+         
         </div>
     )
 }
