@@ -293,7 +293,7 @@ line-height: 1.5;
 .featured{
   text-align: center;
   background-color: #f8f8f8;
-  height: 600px;
+  height: 880px;
   padding-top: 100px;
 }
 
@@ -313,7 +313,6 @@ color: #666666;
 .hero15 {
   width: 85%;
   color: white;
-  text-align: center;
   margin: auto;
   margin-top: 50px;
   box-shadow: none;
@@ -324,6 +323,10 @@ color: #666666;
 .hero-title {
   font-size: 3rem;
   font-weight: bold;
+}
+
+.card-slider-container {
+  position: static; /* default */
 }
 
 
@@ -337,43 +340,29 @@ color: #666666;
   padding-bottom: 30px;
 }
 
-.card-item h2 {
-  color: #45595b;
-  margin: 0;
-  padding-top: 15px;
-  font-size: 20px;
+.card-info h2{
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 19px;
 }
 
-.card-item .ips {
-  color: #45595b;
-  line-height: 1.6;
-  width: 78%;
-  margin: auto;
-  font-size: 17px;
-  margin-top: 15px;
+.card-info p {
+text-align: left;
+  position: relative;
+  right: 17px;
+  font-size: 15px;
+
 }
 
-
-.card-image {
-  width: 100%;
-  height: 220px;
-  border-radius: 9px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.card-title {
-  font-size: 1.1rem;
-  text-align: center;
-  font-weight: 600;
-}
 
 .swiper-button-next {
-  color:white !important;
+  color: white !important;
   width:15px !important;
   outline: none !important;
+  position: absolute;
+  top: 130px !important;
 
-  
 
 }
 
@@ -381,7 +370,88 @@ color: #666666;
   color: white !important ;
   width: 15px !important;
   outline: none !important;
+  top: 130px !important;
+
+
 }
+
+.card-image-container {
+  position: relative; /* IMPORTANT: overlay absolute relative to this */
+  width: 100%;
+  height: 250px; /* fixed height or adjust as needed */
+  overflow: hidden;
+}
+
+/* Image styling */
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Slight zoom on hover */
+.card-image-container:hover .card-image {
+  transform: scale(1.05);
+}
+
+/* Overlay only on image */
+.card-button-overlay {
+  position: absolute; /* absolute to image container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 165, 0, 0.5); /* semi-transparent orange */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* hidden initially */
+  transition: opacity 0.3s ease;
+}
+
+/* Show overlay on hover */
+.card-image-container:hover .card-button-overlay {
+  opacity: 1;
+}
+
+/* Center button */
+.details-btn {
+  padding: 7px 24px;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  width: 110px;
+}
+
+.pers{
+  color: #666666;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -564,6 +634,33 @@ margin: auto;
 .builder{
   text-align: center;
 }
+
+.featured{
+  margin-top: 30px;
+
+}
+
+.swiper-button-next {
+  color: white !important;
+  width:15px !important;
+  outline: none !important;
+  position: absolute;
+  top: 120px !important;
+}
+
+.swiper-button-prev {
+  color: white !important ;
+  width: 15px !important;
+  outline: none !important;
+  top: 120px !important;
+}
+
+
+.card-info p{
+  position: relative;
+  right: 12px;
+}
+
 
 
 
