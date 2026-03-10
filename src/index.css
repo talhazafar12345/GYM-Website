@@ -293,7 +293,7 @@ line-height: 1.5;
 .featured{
   text-align: center;
   background-color: #f8f8f8;
-  height: 880px;
+  height: 630px;
   padding-top: 100px;
 }
 
@@ -311,7 +311,7 @@ color: #666666;
 
 
 .hero15 {
-  width: 85%;
+  width: 80%;
   color: white;
   margin: auto;
   margin-top: 50px;
@@ -356,8 +356,10 @@ text-align: left;
 }
 
 
+
+
 .swiper-button-next {
-  color: white !important;
+  color:red !important;
   width:15px !important;
   outline: none !important;
   position: absolute;
@@ -367,7 +369,7 @@ text-align: left;
 }
 
 .swiper-button-prev {
-  color: white !important ;
+  color: red !important ;
   width: 15px !important;
   outline: none !important;
   top: 130px !important;
@@ -637,11 +639,13 @@ margin: auto;
 
 .featured{
   margin-top: 30px;
+  height: auto;
+  padding-bottom: 30px;
 
 }
 
 .swiper-button-next {
-  color: white !important;
+  color: #e8592a !important;
   width:15px !important;
   outline: none !important;
   position: absolute;
@@ -649,7 +653,7 @@ margin: auto;
 }
 
 .swiper-button-prev {
-  color: white !important ;
+  color: #e8592a !important ;
   width: 15px !important;
   outline: none !important;
   top: 120px !important;
@@ -658,7 +662,16 @@ margin: auto;
 
 .card-info p{
   position: relative;
-  right: 12px;
+  right: 6px;
+}
+
+.card-info h2{
+  font-size: 18px;
+}
+
+.card-item{
+  width: 83%;
+  margin-left: 25px;
 }
 
 

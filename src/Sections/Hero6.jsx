@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const cardsData = [
-  { id: 1, name: "Cycling", image: "https://media.gettyimages.com/id/1294578183/photo/class-with-disco-ambient-lights-disco-ambient-light.jpg?s=612x612&w=0&k=20&c=pPP2w5bPIbQHb26_voz0qqUpBGWMD7Zok3aAG7xSRpU=", teacher:"Selina, Chris, Maria" },
+  { id: 1, name: "Cycling", image: "https://plus.unsplash.com/premium_photo-1664304732747-661c2cd16774?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXhlcmNpc2UlMjBiaWtlfGVufDB8fDB8fHww", teacher:" Chris" },
   { id: 2, name: "Yoga", image: "https://media.gettyimages.com/id/1483989816/photo/adult-arab-male-with-a-ponytail-meditating-in-a-yoga-class.jpg?s=612x612&w=0&k=20&c=FTkO8dit_ZWB_9mUk2bmkELm2mpC-NqH82nCmK1Wx6M=", teacher:"John" },
   { id: 3, name: "Running", image: "https://images.unsplash.com/photo-1602174865963-9159ed37e8f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTh8fHJ1bm5pbmd8ZW58MHx8MHx8fDA%3D", teacher:"Anjalena" },
   { id: 4, name: "Meditation", image: "https://radiustheme.com/demo/wordpress/gymedge/wp-content/uploads/2016/12/class_02-410x200.jpg", teacher:"Chris Students" },
@@ -20,7 +20,7 @@ function Hero6() {
           className="card-swiper"
           modules={[Navigation]}
           navigation
-          spaceBetween={18}
+          spaceBetween={17}
           slidesPerView={3}
           grabCursor={true}
           loop={true}
