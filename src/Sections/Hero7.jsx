@@ -12,11 +12,11 @@ function Hero7() {
         <div className="gym">
           <h1>Gym Schedule</h1>
 
-          <div className="days">
+          <div className="allweek">
             {days.map((day) => (
               <button
                 key={day}
-                className={show === day ? "active" : ""}
+                className={show === day ? "show" : ""}
                 onClick={() => setShow(day)}
               >
                 {day}
