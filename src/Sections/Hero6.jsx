@@ -16,22 +16,21 @@ function Hero6() {
   return (
     <section className="hero15">
       <div className="card-slider-container">
-        <Swiper
-          className="card-swiper"
-          modules={[Navigation]}
-          navigation
-          spaceBetween={17}
-          slidesPerView={3}
-          grabCursor={true}
-          loop={true}
-          loopFillGroupWithBlank={true}
-          breakpoints={{
-            0: { slidesPerView: 1 },
-            500: { slidesPerView: 1 },
-            768: { slidesPerView: 3 },
-            1024: { slidesPerView: 3 },
-          }}
-        >
+       <Swiper
+  className="card-swiper"
+  modules={[Navigation]}
+  navigation
+  spaceBetween={17}
+  slidesPerView={3}
+  grabCursor={true}
+  loop={true}
+  breakpoints={{
+    0: { slidesPerView: 1 },
+    500: { slidesPerView: 1 },
+    768: { slidesPerView: 3 },
+    1024: { slidesPerView: 3 },
+  }}
+>
           {cardsData.map((card) => (
             <SwiperSlide key={card.id}>
               <div className="card-item">
