@@ -2,57 +2,62 @@ import Hero11 from "./Hero11"
 
 function Hero10({ show }) {
     return (
-        <div className="khair">
-            {show === "Friday" && (
+        <div>
+            {show === "Wednesday" && (
                 <>
-                    <div className="bbd">
+                    <div className="bbs">
+
                         <div>
-                            <h2>Cycling</h2>
+                            <p>Body Building</p>
                         </div>
                         <div>
-                            <h2>2.00am-3.00am</h2>
+                            <p>1.30am-3.30am</p>
                         </div>
+
                         <div>
-                            <h2>Jecy Deoko</h2>
+                            <p>Jecy Deoko</p>
                         </div>
+
                         <div className="join">
-                            <button>Join Now!</button>
+                            <button>Join Now</button>
                         </div>
                     </div>
-                    <div className="bbs kks">
+                    <div className="bbh">
                         <div>
-                            <h2>Yoga</h2>
-                        </div>
-                        <div className="timer">
-                            <h2>3.30am-4.30am</h2>
+                            <p>Running</p>
                         </div>
                         <div>
-                            <h2>John Doe</h2>
+                            <p>12.00am-1.30am</p>
                         </div>
+
+                        <div>
+                            <p>John Doe</p>
+                        </div>
+
                         <div className="join">
-                            <button>Join Now!</button>
+                            <button>Join Now</button>
                         </div>
 
                     </div>
-                    <div className="bbh llm">
+                    <div className="bbh">
                         <div>
-                            <h2>Running</h2>
+                            <p>Jumping</p>
                         </div>
-                        <div className="timers">
-                            <h2>4.30am-5.30am</h2>
+                        <div>
+                            <p>2.00am-3.00am</p>
                         </div>
-                        <div className="doe">
-                            <h2>John Doe</h2>
+
+                        <div>
+                            <p>David Fahim</p>
                         </div>
+
                         <div className="join">
-                            <button>Join Now!</button>
+                            <button>Join Now</button>
                         </div>
                     </div>
                 </>
             )}
-
             <Hero11 show ={show} />
-
         </div>
     )
 }
