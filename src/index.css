@@ -120,6 +120,7 @@ display: none;
 .hero-content h1 {
   margin-bottom: 20px;
   font-size: 45px;
+  line-height: 1.6;
 }
 
 
@@ -528,6 +529,34 @@ text-align: left;
 }
 
 
+.rft img{
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  margin-top: 170px;
+}
+
+.rft{
+  position: relative;
+}
+
+.bmi{
+  position: absolute;
+  top: 260px;
+  color: #ffffff;
+  margin-left: 90px;
+  font-size: 21px;
+}
+
+.bmi p{
+  margin-top: 20px;
+  font-size: 18px;
+  width: 80%;
+  line-height: 1.6;
+  color: silver;
+}
+
+
 
 
 
@@ -676,9 +705,9 @@ text-align: left;
 
 .hero-content h1{
 
-font-size:23px;
-line-height: 2;
-width: 90%;
+font-size:25px;
+line-height: 1.8;
+width: 85%;
 margin: auto;
 
 }
@@ -686,19 +715,20 @@ margin: auto;
 .hero-content{
 
     position: absolute;
-    top: 325px;
+    top: 345px;
     width: 100%;
  
 }
 
 .hero-content button{
     font-size: 16px;
+    margin-top: 20px;
 }
 
 
 .body img{
 
-    height: 100%;
+    height: auto !important;
     width: 100%;
 }
 
@@ -825,7 +855,7 @@ margin: auto;
   height: auto;
   padding: 15px;
   gap: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 33px;
   padding-top: 30px;
 }
 
@@ -851,6 +881,14 @@ padding-left: 0;
 .gym h1{
   font-size: 28px;
 }
+
+.rft img{
+  height: 80vh;
+  margin-top: 80px !important;
+}
+
+
+
 
 
 
