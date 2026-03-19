@@ -10,14 +10,14 @@ function Hero7() {
         <div className="gym">
           <h1>Gym Schedule</h1>
           <div className="allweek">
-          {days.map(day=>(
-<button className={show== day? "show":""} onClick={()=>setShow(day)}>
-{day}
-</button>
-          ))}
+            {days.map(day => (
+              <button className={show == day ? "show" : ""} onClick={() => setShow(day)}>
+                {day}
+              </button>
+            ))}
           </div>
         </div>
-              <Hero8 show ={show} />
+        <Hero8 show={show} />
       </div>
 
     </div>

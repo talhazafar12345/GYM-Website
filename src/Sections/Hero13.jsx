@@ -1,8 +1,4 @@
 
-
-
-
-
 function Hero13({show}) {
   return (
     <div>
@@ -36,7 +32,6 @@ function Hero13({show}) {
                         <div>
                             <p>Alexander Watson</p>
                         </div>
-
                         <div className="join">
                             <button>Join Now</button>
                         </div>

@@ -5,7 +5,7 @@ function Hero2() {
     return (
         <div>
             <div className="body">
-                <img loading ="lazy" src="https://i.ibb.co/8L1KqzRH/pedro-araujo-PDj-YClxmnyk-unsplash-1.jpg" alt="" />
+                <img src="https://i.ibb.co/8L1KqzRH/pedro-araujo-PDj-YClxmnyk-unsplash-1.jpg" alt="" />
                 <div class="overlay"></div>
                 <div class="hero-content">{/* Main Hero Heading + Text + Button */}
                     <h1>Build a Stronger, Healthier and Confident You</h1>
