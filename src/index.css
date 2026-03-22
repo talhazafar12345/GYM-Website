@@ -685,8 +685,8 @@ body {
 
 .tea p {
   position: absolute;
-  top: 75%; /* center vertically */
-  background-color: black;
+  top: 70%; /* center vertically */
+  background-color: white;
   height: 40px;
   display: flex;
   align-items: center;
@@ -695,7 +695,8 @@ body {
   left: 50%; /* center horizontally */
   transform: translate(-50%, -50%); /* perfect centering */
   z-index: 3; /* above overlay */
-  color: #fff; /* white text for contrast */
+  color: black; /* white text for contrast */
+  font-weight: bold;
   font-size: 17px;
   pointer-events: none; /* so hover works on container */
   transition: color 0.1s ease,
