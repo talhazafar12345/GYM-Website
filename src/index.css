@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px 40px;
-  background-color:#181818;
+  background-color: #181818;
   padding-top: 30px;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .navButton button {
   border: none;
-  background:#e8592a;
+  background: #e8592a;
   color: white;
   cursor: pointer;
   width: 120px;
@@ -65,7 +65,7 @@ body {
 
 
 .navButton button:hover {
-  background:#ffffff;
+  background: #ffffff;
   color: #e8592a;
 }
 
@@ -81,13 +81,13 @@ body {
 
 .body img {
   width: 100%;
-height: 700px;
-object-fit: cover;
+  height: 700px;
+  object-fit: cover;
 }
 
 
 .sec img {
-display: none;
+  display: none;
 }
 
 .hero {
@@ -139,179 +139,179 @@ display: none;
   color: #fff;
 }
 
-.hero-content button:hover{
-    background-color: white;
-    color: #e8592a;
-}
-
-.yoga{
-
-background-color: #f8f8f8;
-width: 330px;
-padding: 20px;
-padding-bottom: 38px;
-}
-
-
-.yoga h2{
-    color: #111111;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.yoga h2:hover{
-    color: #e8592a;
-}
-
-.yoga p{
-    line-height: 1.7;
-    padding-top: 20px;
-    width: 90%;
-    margin: auto;
-    color: #666666;
-    
-}
-
-.praying{
-    padding-top: 30px;
-    font-size: 35px;
-    color: #e8592a;
-    text-align: center;
-   
-}
-
-
-.weight{
-background-color:#ededed;
-width: 330px;
-padding: 20px;
-}
-
-.weight h2{
-    color: #111111;
-    text-align: center;
-    padding-top: 20px;
-
-}
-
-.weight h2:hover{
-color: #e8592a;
-}
-
-
-.weight p{
-    line-height: 1.7;
-    padding-top: 20px;
-    width: 90%;
-    margin: auto;
-    color: #666666;
-
-
-}
-
-.hanging{
-    padding-top: 30px;
-    font-size: 35px;
-    color: #e8592a;
-    text-align: center;
-}
-
-
-.running{
-background-color:#f8f8f8;
-width: 330px;
-padding: 20px;
-}
-
-.running h2{
-    color: #111111;
-    text-align: center;
-    padding-top: 20px;
-
-}
-
-.running h2:hover{
-    color: #e8592a;
-}
-
-.running p{
-    line-height: 1.7;
-    padding-top: 20px;
-    width: 90%;
-    padding: 20px;
-    margin: auto;
-    color: #666666;
-
-
-}
-
-.person{
-    padding-top: 30px;
-    font-size: 35px;
-    color: #e8592a;
-    text-align: center;
-}
-
-.allfit{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 100px;
-    
-
-   
-}
-
-.jour{
-margin-left: 100px;
-margin-top: 90px;
-line-height: 1.5;
-}
-
-.jour .you{
-  color:#222222;
-}
-
-.jour .fjs{
+.hero-content button:hover {
+  background-color: white;
   color: #e8592a;
 }
 
-.jour p{
+.yoga {
+
+  background-color: #f8f8f8;
+  width: 330px;
+  padding: 20px;
+  padding-bottom: 38px;
+}
+
+
+.yoga h2 {
+  color: #111111;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.yoga h2:hover {
+  color: #e8592a;
+}
+
+.yoga p {
+  line-height: 1.7;
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
+  color: #666666;
+
+}
+
+.praying {
+  padding-top: 30px;
+  font-size: 35px;
+  color: #e8592a;
+  text-align: center;
+
+}
+
+
+.weight {
+  background-color: #ededed;
+  width: 330px;
+  padding: 20px;
+}
+
+.weight h2 {
+  color: #111111;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.weight h2:hover {
+  color: #e8592a;
+}
+
+
+.weight p {
+  line-height: 1.7;
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
+  color: #666666;
+
+
+}
+
+.hanging {
+  padding-top: 30px;
+  font-size: 35px;
+  color: #e8592a;
+  text-align: center;
+}
+
+
+.running {
+  background-color: #f8f8f8;
+  width: 330px;
+  padding: 20px;
+}
+
+.running h2 {
+  color: #111111;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.running h2:hover {
+  color: #e8592a;
+}
+
+.running p {
+  line-height: 1.7;
+  padding-top: 20px;
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  color: #666666;
+
+
+}
+
+.person {
+  padding-top: 30px;
+  font-size: 35px;
+  color: #e8592a;
+  text-align: center;
+}
+
+.allfit {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 100px;
+
+
+
+}
+
+.jour {
+  margin-left: 100px;
+  margin-top: 90px;
+  line-height: 1.5;
+}
+
+.jour .you {
+  color: #222222;
+}
+
+.jour .fjs {
+  color: #e8592a;
+}
+
+.jour p {
   width: 100%;
   color: #666666;
   line-height: 1.9;
   text-align: justify;
 }
 
-.here{
-  color:#aeaeae;
+.here {
+  color: #aeaeae;
 }
 
-.jyh{
+.jyh {
   display: flex;
 }
 
-.builder img{
+.builder img {
   margin-right: 50px;
 }
 
-.featured{
+.featured {
   text-align: center;
   background-color: #f8f8f8;
   height: 630px;
   padding-top: 100px;
 }
 
-.featured h2{
+.featured h2 {
   color: #111111;
 }
 
-.featured p{
-width: 80%;
-margin: auto;
-margin-top: 20px;
-line-height: 1.7;
-color: #666666;
+.featured p {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 1.7;
+  color: #666666;
 }
 
 
@@ -331,12 +331,13 @@ color: #666666;
 }
 
 .card-slider-container {
-  position: static; /* default */
+  position: static;
+  /* default */
 }
 
 
 .card-item {
-  background:#ffffff;
+  background: #ffffff;
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
   height: auto;
@@ -345,7 +346,7 @@ color: #666666;
   padding-bottom: 30px;
 }
 
-.card-info h2{
+.card-info h2 {
   padding-top: 20px;
   text-align: left;
   margin-left: 20px;
@@ -353,7 +354,7 @@ color: #666666;
 }
 
 .card-info p {
-text-align: left;
+  text-align: left;
   position: relative;
   right: 17px;
   font-size: 15px;
@@ -364,8 +365,8 @@ text-align: left;
 
 
 .swiper-button-next {
-  color:  white !important;
-  width:15px !important;
+  color: white !important;
+  width: 15px !important;
   outline: none !important;
   position: absolute;
   top: 130px !important;
@@ -374,7 +375,7 @@ text-align: left;
 }
 
 .swiper-button-prev {
-  color: white !important ;
+  color: white !important;
   width: 15px !important;
   outline: none !important;
   top: 130px !important;
@@ -383,9 +384,11 @@ text-align: left;
 }
 
 .card-image-container {
-  position: relative; /* IMPORTANT: overlay absolute relative to this */
+  position: relative;
+  /* IMPORTANT: overlay absolute relative to this */
   width: 100%;
-  height: 250px; /* fixed height or adjust as needed */
+  height: 250px;
+  /* fixed height or adjust as needed */
   overflow: hidden;
 }
 
@@ -404,23 +407,30 @@ text-align: left;
 }
 
 /* Overlay only on image */
+.card-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Overlay */
 .card-button-overlay {
-  position: absolute; /* absolute to image container */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 165, 0, 0.5); /* semi-transparent orange */
+  background-color: rgba(232, 89, 42, 0.85);
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0; /* hidden initially */
-  transition: opacity 0.3s ease;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
 }
 
-/* Show overlay on hover */
+/* 👇 Hover par left se fill ho */
 .card-image-container:hover .card-button-overlay {
-  opacity: 1;
+  transform: scaleX(1);
 }
 
 /* Center button */
@@ -435,12 +445,12 @@ text-align: left;
   width: 110px;
 }
 
-.pers{
+.pers {
   color: #666666;
   text-align: left;
 }
 
-.gymback{
+.gymback {
   background-image: url("https://images.unsplash.com/photo-1521805103424-d8f8430e8933?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGd5bXxlbnwwfHwwfHx8MA%3D%3D");
   background-repeat: no-repeat;
   background-size: cover;
@@ -448,18 +458,18 @@ text-align: left;
   position: relative;
 }
 
-.gym{
+.gym {
   padding-top: 40px;
   margin-left: 90px;
 }
 
-.allweek{
+.allweek {
   margin-top: 20px;
   display: flex;
   gap: 20px;
 }
 
-.allweek button{
+.allweek button {
   width: 130px;
   height: 40px;
   border-radius: 30px;
@@ -467,18 +477,19 @@ text-align: left;
   border: none;
 }
 
-.allweek button.show{
+.allweek button.show {
   background-color: #e8592a;
   color: white;
 }
 
-.gym h1{
+.gym h1 {
   color: white;
 }
 
-.bbs{
+.bbs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 equal columns */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* 4 equal columns */
   align-items: center;
   background-color: #e8592a;
   width: 80%;
@@ -488,17 +499,17 @@ text-align: left;
   font-size: 12px;
   margin-left: 100px;
   margin-top: 70px;
- 
+
 }
 
-.bbs p{
+.bbs p {
   font-size: 18px;
   padding-left: 40px;
 }
 
-.bbh{
+.bbh {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 equal columns */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   background-color: #e8592a;
   width: 80%;
@@ -511,13 +522,13 @@ text-align: left;
 
 }
 
-.bbh p{
+.bbh p {
   font-size: 18px;
   padding-left: 40px;
 }
 
 
-.join button{
+.join button {
   background-color: #ffffff;
   height: 40px;
   width: 130px;
@@ -527,31 +538,29 @@ text-align: left;
   font-size: 16px;
 }
 
-.join button:hover{
+.join button:hover {
   background-color: black;
   color: white;
 }
 
 
-.rft{
+.rft {
   background-image: url("https://images.unsplash.com/photo-1585484764802-387ea30e8432?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHxneW18ZW58MHx8MHx8fDA%3D");
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 100px;
   margin-top: 120px;
-
 }
 
 
-.bmi{
-
+.bmi {
   color: #ffffff;
   margin-left: 90px;
   font-size: 21px;
 }
 
-.bmi p{
+.bmi p {
   margin-top: 20px;
   font-size: 18px;
   width: 80%;
@@ -560,51 +569,157 @@ text-align: left;
 }
 
 
-.allinp{
+.allinp {
   display: flex;
   gap: 20px;
   margin-top: 20px;
 }
 
-.inp input{
+.inp input {
   height: 35px;
   width: 120px;
   border: none;
   border-radius: 20px;
   background-color: black;
   border: 1px solid white;
-  color:  #fff;
+  color: #fff;
   font-size: 16px;
   padding-left: 10px;
 }
 
-.inp input::placeholder{
+.inp input::placeholder {
   font-size: 15px;
-  color:  silver;
+  color: silver;
 }
 
-.inpbtn button{
-    background-color: #e8592a;
-    color: white;
-    margin-top: 30px;
-    width: 160px;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-    font-size: 22px;
-}
-
-
-.error{
+.inpbtn button {
+  background-color: #e8592a;
   color: white;
-margin-top: 22px;
-font-size: 18px;
+  margin-top: 30px;
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 22px;
 }
 
-.result p{
+
+.error {
+  color: white;
+  margin-top: 22px;
+  font-size: 18px;
+}
+
+.result p {
   color: white;
   font-size: 18px;
+}
 
+.tra {
+  color: #111111;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tra p {
+  margin-top: 20px;
+  color: gray;
+}
+
+.tea {
+  position: relative;
+  width: 280px;
+  height: 320px;
+  cursor: pointer;
+  margin-top: 50px;
+  overflow: hidden;
+  text-align: center; /* center text horizontally */
+}
+
+/* Image with background */
+.tea img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  background-color: #f5f5f5;
+  transition: transform 0.3s ease;
+}
+
+/* Orange overlay sliding from left */
+.tea::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(232, 89, 42, 0.85);
+  transition: width 0.2s ease;
+  z-index: 2; /* above image, below text */
+}
+
+/* Hover effect: expand overlay */
+.tea:hover::before {
+  width: 100%;
+
+}
+
+.tea h2 {
+  position: absolute;
+  top: 60%; /* center vertically */
+  background-color: #e8592a;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  left: 50%; /* center horizontally */
+  transform: translate(-50%, -50%); /* perfect centering */
+  z-index: 3; /* above overlay */
+  color: #fff; /* white text for contrast */
+  font-size: 20px;
+  pointer-events: none; /* so hover works on container */
+  transition: color 0.1s ease,
+}
+
+
+.tea p {
+  position: absolute;
+  top: 75%; /* center vertically */
+  background-color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  left: 50%; /* center horizontally */
+  transform: translate(-50%, -50%); /* perfect centering */
+  z-index: 3; /* above overlay */
+  color: #fff; /* white text for contrast */
+  font-size: 17px;
+  pointer-events: none; /* so hover works on container */
+  transition: color 0.1s ease,
+}
+
+.tea:hover h2 {
+  background-color: transparent;
+}
+
+.tea:hover p {
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.york{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.khb{
+background-color: #edf0eb;
+padding-top: 40px;
+padding-bottom: 40px;
 }
 
 
@@ -689,7 +804,7 @@ font-size: 18px;
     left: 100%;
     width: 100%;
     height: 100vh;
-    background-color:#181818;
+    background-color: #181818;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -701,12 +816,12 @@ font-size: 18px;
     left: 0;
   }
 
-  
+
   .navImages img {
     width: 35%;
   }
 
-  .navImage img{
+  .navImage img {
     width: 80%;
     padding-top: 10px;
     position: relative;
@@ -733,252 +848,273 @@ font-size: 18px;
   }
 
   .side-link:hover {
-    color:#e8592a;
+    color: #e8592a;
   }
 
 
-    .gymbtn button {
-  background:#e8592a;
-  width: 88%;
-  height: 40px;
-  font-size: 17px;
-  border: none;
-  border-radius: 20px;
-  font-weight: bold;
-  margin-top: 20px;
-  color: white;
-}
+  .gymbtn button {
+    background: #e8592a;
+    width: 88%;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+  }
 
-.gymbtn button:hover{
+  .gymbtn button:hover {
     background-color: #ffffff;
     color: #e8592a;
-}
+  }
 
-.hero-content h1{
+  .hero-content h1 {
 
-font-size:25px;
-line-height: 1.8;
-width: 85%;
-margin: auto;
+    font-size: 25px;
+    line-height: 1.8;
+    width: 85%;
+    margin: auto;
 
-}
+  }
 
-.hero-content{
+  .hero-content {
 
     position: absolute;
     top: 345px;
     width: 100%;
- 
-}
 
-.hero-content button{
+  }
+
+  .hero-content button {
     font-size: 16px;
     margin-top: 20px;
-}
+  }
 
 
-.body img{
+  .body img {
 
     height: 600px;
     object-fit: cover;
-}
+  }
 
-.sec img{
+  .sec img {
 
     width: 100%;
     display: block;
     margin-top: -20px;
-}
+  }
 
-.allfit{
+  .allfit {
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.yoga{
+  .yoga {
     width: 75%;
     padding-bottom: 33px;
-}
+  }
 
-.weight{
+  .weight {
     width: 75%;
     padding-bottom: 38px;
-}
+  }
 
-.running{
+  .running {
     width: 75%;
-}
+  }
 
-.jyh{
-  flex-direction: column;
-  align-items: center;
-}
+  .jyh {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.jour{
-  margin-left: 25px;
-  margin-top: 50px;
-  
-}
+  .jour {
+    margin-left: 25px;
+    margin-top: 50px;
 
-.jour p{
-  font-size: 16px;
-  width: 90%;
-  margin-top: 10px;
-}
+  }
 
-.jour .you{
-  font-size: 25px;
-}
+  .jour p {
+    font-size: 16px;
+    width: 90%;
+    margin-top: 10px;
+  }
 
-.jour .here{
-  font-size: 25px;
-}
+  .jour .you {
+    font-size: 25px;
+  }
 
-.builder img{
-  width: 85%;
-  margin: auto;
-}
+  .jour .here {
+    font-size: 25px;
+  }
 
-.builder{
-  text-align: center;
-}
+  .builder img {
+    width: 85%;
+    margin: auto;
+  }
 
-.featured{
-  margin-top: 30px;
-  height: auto;
-  padding-bottom: 30px;
+  .builder {
+    text-align: center;
+  }
 
-}
+  .featured {
+    margin-top: 30px;
+    height: auto;
+    padding-bottom: 30px;
 
-.swiper-button-next {
-  color: #e8592a !important;
-  width:15px !important;
-  outline: none !important;
-  position: absolute;
-  top: 120px !important;
-}
+  }
 
-.swiper-button-prev {
-  color: #e8592a !important ;
-  width: 15px !important;
-  outline: none !important;
-  top: 120px !important;
-}
+  .swiper-button-next {
+    color: #e8592a !important;
+    width: 15px !important;
+    outline: none !important;
+    position: absolute;
+    top: 120px !important;
+  }
 
-
-.card-info p{
-  position: relative;
-  right: 6px;
-}
-
-.card-info h2{
-  font-size: 18px;
-}
-
-.card-item{
-  width: 83%;
-  margin-left: 25px;
-}
-
-.allweek{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  margin-left: 0;
-  gap: 10px;
-  margin: 30px;
-}
+  .swiper-button-prev {
+    color: #e8592a !important;
+    width: 15px !important;
+    outline: none !important;
+    top: 120px !important;
+  }
 
 
+  .card-info p {
+    position: relative;
+    right: 6px;
+  }
 
-.allweek button{
+  .card-info h2 {
+    font-size: 18px;
+  }
+
+  .card-item {
+    width: 83%;
+    margin-left: 25px;
+  }
+
+  .allweek {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 0;
+    gap: 10px;
+    margin: 30px;
+  }
+
+
+
+  .allweek button {
     width: 100%;
     margin: auto;
     font-size: 14px;
-}
+  }
 
-.bbs,
-.bbh{
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: auto;
-  margin-top: 30px;
-  height: auto;
-  padding: 15px;
-  gap: 10px;
-  padding-bottom: 33px;
-  padding-top: 30px;
-}
+  .bbs,
+  .bbh {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+    padding-bottom: 33px;
+    padding-top: 30px;
+  }
 
-.bbs p,
-.bbh p{
-text-align: center;
-padding-left: 0;
-  font-size: 19px;
-}
+  .bbs p,
+  .bbh p {
+    text-align: center;
+    padding-left: 0;
+    font-size: 19px;
+  }
 
-.join button{
-  margin-top: 10px;
-  font-size: 14px;
-}
+  .join button {
+    margin-top: 10px;
+    font-size: 14px;
+  }
 
-.gym{
-  margin-left: 0;
-  margin-top: 60px;
+  .gym {
+    margin-left: 0;
+    margin-top: 60px;
     text-align: center;
 
-}
+  }
 
-.gym h1{
-  font-size: 28px;
-}
-
-
+  .gym h1 {
+    font-size: 28px;
+  }
 
 
 
-.bmi h2{
-  font-size: 23px;
-  width: 90%;
-}
 
-.bmi p{
-  font-size: 15px;
-  width: 90%;
-}
 
-.inp input::placeholder{
-  font-size: 11px;
-}
+  .bmi h2 {
+    font-size: 23px;
+    width: 90%;
+  }
 
-.inp input{
+  .bmi p {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .inp input::placeholder {
+    font-size: 11px;
+  }
+
+  .inp input {
     font-size: 11px;
 
-}
+  }
 
-.bmi{
-  margin-left: 30px;
-}
+  .bmi {
+    margin-left: 30px;
+  }
 
-.rft{
-  margin-top: 90px;
-}
+  .rft {
+    margin-top: 90px;
+  }
 
 
 
- .inp input {
-    width: 100%; 
+  .inp input {
+    width: 100%;
     height: 40px;
   }
 
-  .allinp{
+  .allinp {
     margin-right: 40px;
   }
 
-  .inpbtn button{
+  .inpbtn button {
     font-size: 18px;
     width: 40%;
   }
+
+
+  .tra p{
+    width: 85%;
+    margin:auto ;
+    padding-top: 20px;
+    line-height: 1.6;
+  }
+
+  .york{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   margin-top: 50px;
+  }
+
+  .tea{
+    margin-top: 0;
+  }
+
+
 
 
 
@@ -999,12 +1135,12 @@ padding-left: 0;
 
 @media (min-width: 410px) and (max-width:430px) {
 
-.hero-content{
+  .hero-content {
 
     position: absolute;
     top: 370px;
     width: 100%;
- 
-}
-     
+
+  }
+
 }

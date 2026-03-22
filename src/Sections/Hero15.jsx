@@ -1,30 +1,39 @@
-import { useState  } from "react"
+import { useState } from "react"
 function Hero15() {
-
     const [weight, setWeight] = useState("")
     const [inches, setInches] = useState("")
     const [feet, setFeet] = useState("")
     const [BMI, setBMI] = useState("")
     const [category, setCategory] = useState("")
     const [error, setError] = useState("")
-
-
     const calculateBMI = () => {
-
         if (!weight || !feet || !inches) {
             setError("Please fill all fields")
+            setBMI(null)
             return
         }
-
+        if (weight <= 0) {
+            setError("Please enter correct value")
+            setBMI(null)
+            return
+        }
+        if (inches <= 0) {
+            setError("Please enter correct value")
+            setBMI(null)
+            return
+        }
+        if (feet <= 0) {
+            setError("Please enter correct value")
+            setBMI(null)
+            return
+        }
         setError("")
-    
         const totalInches = Number(feet) * 12 + Number(inches);
         const heightInMeters = totalInches * 0.0254;
         const bmiValue = weight / (heightInMeters * heightInMeters);
-        const roundedBMI = bmiValue.toFixed(2);
+        const roundedBMI = bmiValue.toFixed(3);
         setBMI(roundedBMI)
-        
-        
+
 
         if (bmiValue < 18.5) {
             setCategory("You are under weight")
@@ -40,19 +49,12 @@ function Hero15() {
         else {
             setCategory("You are obese")
         }
-        document.getElementById("inps").value = ""
-        document.getElementById("inpss").value = ""
-        document.getElementById("inpsa").value = ""
-
-  
-
-           
     }
     return (
         <div>
             <div className="allinp">
                 <div className="inp">
-                    <input  value={weight} onChange={(e) => setWeight(e.target.value)} placeholder="Weight" type="number" name="" id="inps" />
+                    <input value={weight} onChange={(e) => setWeight(e.target.value)} placeholder="Weight" type="number" name="" id="inps" />
                 </div>
 
                 <div className="inp">
@@ -60,19 +62,16 @@ function Hero15() {
                 </div>
 
                 <div className="inp">
-                    <input  value={inches} onChange={(e) => setInches(e.target.value)} placeholder="Height / inches" type="number" name="" id="inpsa" />
+                    <input value={inches} onChange={(e) => setInches(e.target.value)} placeholder="Height / inches" type="number" name="" id="inpsa" />
                 </div>
             </div>
             <div className="inpbtn">
                 <button onClick={calculateBMI}>Calculate</button>
             </div>
-
-
             {error && (
                 <div className="error">
                     {error}
                 </div>
-
             )}
             {BMI && (
                 <div className="result">
