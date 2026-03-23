@@ -1,6 +1,8 @@
 import Hero1 from "../Sections/Hero1"
 import Hero14 from "../Sections/Hero14"
 import Hero16 from "../Sections/Hero16"
+import Hero17 from "../Sections/Hero17"
+import Hero18 from "../Sections/Hero18"
 import Hero2 from "../Sections/Hero2"
 import Hero3 from "../Sections/Hero3"
 import Hero4 from "../Sections/Hero4"
@@ -20,6 +22,8 @@ function NavBar() {
     <Hero7 />
     <Hero14 />
     <Hero16 />
+    <Hero17 />
+    <Hero18 />
 
    
     </div>
