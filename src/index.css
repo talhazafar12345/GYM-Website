@@ -6,7 +6,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 
 }
 
@@ -639,7 +639,6 @@ body {
   margin-top: 50px;
   overflow: hidden;
   text-align: center;
-  border: 2px solid red;
 }
 
 
@@ -653,7 +652,7 @@ body {
   object-fit: cover;
   background-color: #f5f5f5;
   transition: transform 0.3s ease;
-  
+
 }
 
 /* Orange overlay sliding from left */
@@ -737,7 +736,7 @@ body {
 }
 
 .dum {
-background-color: black;
+  background-color: black;
   width: 100%;
   padding-bottom: 400px;
   position: relative;
@@ -765,14 +764,14 @@ background-color: black;
   width: 80%;
   color: white;
   text-transform: uppercase;
-  
+
 }
 
 .sub span {
-  color:#e8592a;
+  color: #e8592a;
 }
 
-.sub button{
+.sub button {
   text-transform: uppercase;
   margin-top: 43px;
   background-color: transparent;
@@ -785,12 +784,12 @@ background-color: black;
   font-weight: bolder !important;
 }
 
-.sub button:hover{
+.sub button:hover {
   background-color: #e8592a;
 
 }
 
-.pri{
+.pri {
   text-align: center;
   margin-top: 50px;
   text-transform: uppercase;
@@ -798,24 +797,24 @@ background-color: black;
   color: white;
 }
 
-.plan p{
+.plan p {
   text-align: center;
   margin-top: 20px;
   color: white;
 }
 
-.main{
- background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-mmGpnib4tCbqVgagyimlASttJEiLA4n_Dg&s");
- background-size: cover;
- width: 100%;
- height: auto;
- padding-bottom: 50px;
- margin-top: 130px;
+.main {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-mmGpnib4tCbqVgagyimlASttJEiLA4n_Dg&s");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  margin-top: 130px;
 
 }
 
 
-.stan{
+.stan {
   background-color: white;
   width: 300px;
   padding-bottom: 50px;
@@ -827,27 +826,27 @@ background-color: black;
   transition: transform 0.3s ease;
 }
 
-.stan:hover{
+.stan:hover {
   transform: translateY(-10px);
 }
 
-.stan h2{
+.stan h2 {
   color: #353535;
   font-size: 20px;
 }
 
-.stan p{
+.stan p {
   color: gray;
   padding-top: 20px;
   font-size: 30px;
   font-weight: bolder;
 }
 
-.stan em{
+.stan em {
   color: black;
 }
 
-.stan article{
+.stan article {
   color: #3e3e3e;
   line-height: 1.8;
   font-size: 17px;
@@ -856,39 +855,109 @@ background-color: black;
 }
 
 
-.stan .spa{
+.stan .spa {
   color: #e8592a;
 }
 
 
-.debtn{
+.debtn {
   margin-top: auto;
 }
 
 
-.debtn button{
-background-color: transparent;
-color: black;
-width: 140px;
-height: 40px;
-border: 2px solid  #e8592a;
-border-radius: 20px;
-font-weight: bold;
-margin-top: 50px;
+.debtn button {
+  background-color: transparent;
+  color: black;
+  width: 140px;
+  height: 40px;
+  border: 2px solid #e8592a;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 50px;
 }
 
-.debtn button:hover{
-  background-color:#e8592a;
+.debtn button:hover {
+  background-color: #e8592a;
   color: white;
 }
 
-.allstans{
+.allstans {
   display: flex;
   align-items: stretch;
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
 }
+
+
+
+.testimonial-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  /* 👈 pehle 15px tha, ab kam kar diya */
+  padding: 20px;
+  border-radius: 15px;
+  color: black;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.testimonial-card img {
+  border-radius: 50%;
+  margin-bottom: auto;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  gap: 10px;
+  /* 👈 name aur text ke beech bhi tight spacing */
+}
+
+.testimonial-content h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.testimonial-content .role {
+  font-size: 16px;
+  opacity: 0.7;
+  margin: 0;
+  /* 👈 extra space remove */
+}
+
+.testimonial-content .text {
+  font-size: 16px;
+  margin: 0;
+  width: auto;
+  line-height: 1.7;
+}
+
+.tal {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.swiper{
+padding-bottom: 30px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #e8592a !important;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -958,6 +1027,8 @@ margin-top: 50px;
 
 
 @media (max-width: 500px) {
+
+
 
   .navLinks,
   .navButton {
@@ -1294,32 +1365,36 @@ margin-top: 50px;
   }
 
 
- 
-  .sub h1{
+
+  .sub h1 {
     font-size: 23px;
- 
+    line-height: 1.4;
+
   }
 
-  .sub{
+  .sub {
     width: 90%;
     padding-left: 30px;
- 
+    line-height: 1.7;
+
   }
 
 
 
-  .sub p{
+  .sub p {
     font-size: 15px;
     width: 100%;
+    position: relative;
+    top: 16px;
   }
 
-  
 
-  .pri h1{
-    font-size:22px;
+
+  .pri h1 {
+    font-size: 22px;
   }
 
-  .plan p{
+  .plan p {
     font-size: 17px;
     width: 70%;
     margin: auto;
@@ -1327,34 +1402,62 @@ margin-top: 50px;
     line-height: 1.6;
   }
 
-  .allstans{
+  .allstans {
     flex-direction: column;
     align-items: center;
   }
-  
-  .main{
+
+  .main {
     margin-top: 90px;
   }
-  .khb{
-  padding-bottom: 80px;
-}
-  
+
+  .khb {
+    padding-bottom: 80px;
+  }
+
+  .testimonial-card {
+
+    margin-left: 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .testimonial-card img {
+    width: 15%;
+    height: 60%;
+
+  }
+
+.testimonial-content .text{
+  text-align: justify;
+  width: 90%;
+  }
+
+  .testimonial-content{
+    margin-left: 10px;
+  }
 
 
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
 
-  
+  .testimonial-content {
 
+    gap: 10px;
+  }
 
-  
+  .swiper-pagination {
+    bottom: 0 !important;
 
+  }
 
-
-
-
-
-
-
-
+  .swiper {
+    overflow: hidden !important;
+    padding-bottom: 20px !important;
+  }
 
 
 

@@ -1,6 +1,4 @@
 import Hero6 from "./Hero6"
-
-
 function Hero5() {
     return (
         <div>
