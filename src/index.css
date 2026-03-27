@@ -1447,16 +1447,15 @@ padding-bottom: 30px !important;
   .testimonial-content {
 
     gap: 10px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .swiper-pagination {
-    bottom: 0 !important;
 
-  }
 
   .swiper {
     overflow: hidden !important;
-    padding-bottom: 20px !important;
+    padding-bottom: 18px !important;
   }
 
 

@@ -14,34 +14,34 @@ function Hero19() {
         {
             name: "John Doe",
             role: "Web Developer",
-            text: "This service is absolutely amazing and exceeded my expectations. The quality of work is outstanding and very professional. I really appreciate how smooth and easy the whole process was. The delivery was perfectly on time without any delays. I would definitely recommend this service to everyone.",
+            text: "I had a truly great experience using this service from start to finish. The team was highly professional and paid close attention to every detail I shared. The quality of the work delivered was exceptional and exceeded my expectations. Everything was completed within the promised timeline without any issues. I would definitely recommend this service to anyone looking for results",
             img: "https://i.pravatar.cc/100?img=1",
         },
         {
             name: "Sophia Khan",
             role: "Designer",
-            text: "This service is absolutely amazing and exceeded my expectations. The quality of work is outstanding and very professional. I really appreciate how smooth and easy the whole process was. The delivery was perfectly on time without any delays. I would definitely recommend this service to everyone.",
+            text: "I had a truly great experience using this service from start to finish. The team was highly professional and paid close attention to every detail I shared. The quality of the work delivered was exceptional and exceeded my expectations. Everything was completed within the promised timeline without any issues. I would definitely recommend this service to anyone looking for results",
             img: "https://i.pravatar.cc/100?img=2",
         },
         {
             name: "Marcus Lee",
             role: "Entrepreneur",
-            text: "This service is absolutely amazing and exceeded my expectations. The quality of work is outstanding and very professional. I really appreciate how smooth and easy the whole process was. The delivery was perfectly on time without any delays. I would definitely recommend this service to everyone.",
+            text: "I had a truly great experience using this service from start to finish. The team was highly professional and paid close attention to every detail I shared. The quality of the work delivered was exceptional and exceeded my expectations. Everything was completed within the promised timeline without any issues. I would definitely recommend this service to anyone looking for results",
             img: "https://i.pravatar.cc/100?img=3",
         },
         {
             name: "Sarah Smith",
             role: "Marketer",
-            text: "This service is absolutely amazing and exceeded my expectations. The quality of work is outstanding and very professional. I really appreciate how smooth and easy the whole process was. The delivery was perfectly on time without any delays. I would definitely recommend this service to everyone.",
+            text: "I had a truly great experience using this service from start to finish. The team was highly professional and paid close attention to every detail I shared. The quality of the work delivered was exceptional and exceeded my expectations. Everything was completed within the promised timeline without any issues. I would definitely recommend this service to anyone looking for results",
             img: "https://i.pravatar.cc/100?img=4",
         },
         {
             name: "David Brown",
             role: "CEO",
-            text: "This service is absolutely amazing and exceeded my expectations. The quality of work is outstanding and very professional. I really appreciate how smooth and easy the whole process was. The delivery was perfectly on time without any delays. I would definitely recommend this service to everyone.",
+            text: "I had a truly great experience using this service from start to finish. The team was highly professional and paid close attention to every detail I shared. The quality of the work delivered was exceptional and exceeded my expectations. Everything was completed within the promised timeline without any issues. I would definitely recommend this service to anyone looking for results",
             img: "https://i.pravatar.cc/100?img=5",
         },
-        
+
     ];
 
     return (
