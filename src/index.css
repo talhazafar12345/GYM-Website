@@ -942,8 +942,8 @@ body {
 }
 
 
-.swiper{
-padding-bottom: 30px !important;
+.swiper {
+  padding-bottom: 30px !important;
 }
 
 .swiper-pagination-bullet-active {
@@ -973,7 +973,7 @@ padding-bottom: 30px !important;
 
 }
 
-.gallery{
+.gallery {
   padding-top: 20px;
 }
 
@@ -989,18 +989,18 @@ padding-bottom: 30px !important;
 }
 
 .social-icons i {
-  background:#e8592a;
+  background: #e8592a;
   color: #fff;
   margin-right: 8px;
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s;
-  
+
 }
 
 .social-icons i:hover {
-  background:#d94f23 ;
+  background: #d94f23;
 
 }
 
@@ -1030,9 +1030,113 @@ padding-bottom: 30px !important;
   font-size: 14px;
 }
 
-.book,.phone,.message{
+.book,
+.phone,
+.message {
   color: #e8592a;
 }
+
+.abou {
+  margin-top: 60px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.ass {
+  color: #e8592a;
+}
+
+.edg {
+  color: #7b7b7b;
+}
+
+.mmm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.abou p {
+  font-size: 16px;
+  line-height: 1.8;
+  width: 100%;
+  color: gray;
+  margin-top: 30px;
+}
+
+
+
+.unplu img {
+  width: 380px;
+  margin-right: 100px;
+  margin-top: 110px;
+}
+
+.tri {
+
+  margin-left: 45px;
+  margin-top: 40px;
+}
+
+.check {
+  color: #e8592a;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.tri .have {
+  font-size: 23px;
+  color: #111111;
+  font-weight: bold;
+}
+
+.tri p {
+  margin-left: 38px;
+  margin-top: 10px;
+  color: gray;
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+.thi {
+  background-image: url("https://images.unsplash.com/photo-1625334583355-463900ec13df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTkxfHxneW18ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  margin-top: 80px;
+}
+
+.thi h2 {
+  color: white;
+  margin-left: 50px;
+  padding-top: 80px;
+  font-size: 30px;
+
+}
+
+
+.thi p {
+  font-size: 16px;
+  color: white;
+  line-height: 1.8;
+  margin-left: 50px;
+  padding-top: 10px;
+  width: 70%;
+
+}
+
+.sola{
+  margin-top: 100px;
+}
+
+
+
+
 
 
 
@@ -1514,12 +1618,12 @@ padding-bottom: 30px !important;
 
   }
 
-.testimonial-content .text{
-  text-align: justify;
-  width: 90%;
+  .testimonial-content .text {
+    text-align: justify;
+    width: 90%;
   }
 
-  .testimonial-content{
+  .testimonial-content {
     margin-left: 10px;
   }
 
@@ -1541,12 +1645,14 @@ padding-bottom: 30px !important;
     padding-bottom: 18px !important;
   }
 
-   .footer-container {
-    grid-template-columns: 1fr; /* 👈 4 columns → 1 column */
+  .footer-container {
+    grid-template-columns: 1fr;
+    /* 👈 4 columns → 1 column */
     gap: 25px;
     padding: 30px 20px;
-    margin-top: 40px;
-    text-align: center; /* 👈 better mobile UI */
+    margin-top: 55px;
+    text-align: center;
+    /* 👈 better mobile UI */
     padding-top: 70px;
   }
 
@@ -1560,7 +1666,7 @@ padding-bottom: 30px !important;
     line-height: 1.5;
   }
 
-  .footer-col p{
+  .footer-col p {
     font-size: 15px;
   }
 
@@ -1600,11 +1706,82 @@ padding-bottom: 30px !important;
   }
 
   /* Contact icons spacing */
-  .book, .phone, .message {
+  .book,
+  .phone,
+  .message {
     display: inline-block;
     margin-right: 5px;
   }
-  
+
+  .mmm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .abou h2 {
+    font-size: 22px;
+
+  }
+
+  .abou p {
+    font-size: 16px;
+    width: 92%;
+    text-align: justify;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+
+  .abou {
+    margin-left: 20px;
+  }
+
+  .unplu img {
+    width: 90%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .unplu {
+    text-align: center;
+  }
+
+  .tri {
+    margin-left: 0;
+  }
+
+  .tri .have {
+    font-size: 20px;
+  }
+
+  .tri .check {
+    margin-left: 24px;
+  }
+
+  .thi{
+    width: 100%;
+  }
+
+  .thi h2{
+    margin-left: 25px;
+    font-size: 24px;
+  }
+
+  .thi p{
+    margin-left: 25px;
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .for{
+    padding-top: 30px;
+  }
+
+
+
+
+
+
+
 
 
 
