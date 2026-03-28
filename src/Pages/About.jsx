@@ -13,20 +13,16 @@ function About() {
     })
   return (
     <div>
-
     <Hero1 />
     <Hero21 />
     <Hero22 />
     <Hero23 />
-    
     <div className="sola"> 
     <Hero16 />
     </div>
-
     <div className="for">
     <Hero20 />
     </div>
-      
     </div>
   )
 }

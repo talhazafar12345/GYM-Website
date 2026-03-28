@@ -43,10 +43,10 @@ function Hero1() {
         <Link to={"/about-page"} className="side-link">
           About
         </Link>
-        <Link  className="side-link">
+        <Link to={"/service-page"}  className="side-link">
           Services
         </Link>
-        <Link className="side-link">
+        <Link to={"/membership-page"} className="side-link">
           Fitness Packages
         </Link>
         <div className="side-buttons">

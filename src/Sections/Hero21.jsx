@@ -8,14 +8,14 @@ function Hero21() {
                     It offers a wide range of equipment for strength training and cardio workouts.
                     The gym provides professional trainers to guide members with proper techniques.
                     It creates a motivating and energetic environment for all fitness levels.
-                    Members can join group classes like yoga, HIIT, and bodybuilding sessions.
+                    Members can join group classes like yoga, HIIT and bodybuilding sessions.
                     Gym Edge promotes a healthy lifestyle and consistent fitness routine.
                     It offers personalized workout plans tailored to individual needs.
                     The gym maintains high standards of cleanliness and safety for all members.
                     Advanced machines and modern facilities enhance the workout experience.
                     Members can track their progress with expert guidance and support.
                     Flexible membership plans make it easy for everyone to join.
-                    Gym Edge encourages discipline, consistency, and self-improvement.
+                    Gym Edge encourages discipline, consistency and self-improvement.
                     Special training programs are available for weight loss and muscle gain.
                     The friendly community atmosphere keeps members motivated and engaged.
                     It is the perfect place to transform your body and boost confidence.</p>
