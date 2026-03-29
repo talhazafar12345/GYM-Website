@@ -362,16 +362,12 @@ body {
 }
 
 
-
-
 .swiper-button-next {
   color: white !important;
   width: 15px !important;
   outline: none !important;
   position: absolute;
   top: 130px !important;
-
-
 }
 
 .swiper-button-prev {
@@ -379,8 +375,6 @@ body {
   width: 15px !important;
   outline: none !important;
   top: 130px !important;
-
-
 }
 
 .card-image-container {
@@ -948,6 +942,7 @@ body {
 
 .swiper-pagination-bullet-active {
   background: #e8592a !important;
+
 }
 
 
@@ -1557,8 +1552,597 @@ color: white;
   }
 
 
+  .bmi h2 {
+    font-size: 23px;
+    width: 90%;
+  }
+
+  .bmi p {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .inp input::placeholder {
+    font-size: 11px;
+  }
+
+  .inp input {
+    font-size: 11px;
+
+  }
+
+  .bmi {
+    margin-left: 30px;
+  }
+
+  .rft {
+    margin-top: 90px;
+  }
 
 
+
+  .inp input {
+    width: 100%;
+    height: 40px;
+  }
+
+  .allinp {
+    margin-right: 40px;
+  }
+
+  .inpbtn button {
+    font-size: 18px;
+    width: 40%;
+  }
+
+
+  .tra p {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    line-height: 1.6;
+  }
+
+  .york {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .tea {
+    margin-top: 0;
+  }
+
+
+
+  .sub h1 {
+    font-size: 23px;
+    line-height: 1.4;
+
+  }
+
+  .sub {
+    width: 90%;
+    padding-left: 30px;
+    line-height: 1.7;
+
+  }
+
+
+
+  .sub p {
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 16px;
+  }
+
+
+
+  .pri h1 {
+    font-size: 22px;
+  }
+
+  .plan p {
+    font-size: 17px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+
+  .allstans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    margin-top: 90px;
+  }
+
+  .khb {
+    padding-bottom: 80px;
+  }
+
+  .testimonial-card {
+
+    margin-left: 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .testimonial-card img {
+    width: 15%;
+    height: 60%;
+
+  }
+
+  .testimonial-content .text {
+    text-align: justify;
+    width: 90%;
+  }
+
+  .testimonial-content {
+    margin-left: 10px;
+  }
+
+
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .testimonial-content {
+
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiper {
+    overflow: hidden !important;
+    padding-bottom: 18px !important;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    /* 👈 4 columns → 1 column */
+    gap: 25px;
+    padding: 30px 20px;
+    margin-top: 55px;
+    text-align: center;
+    /* 👈 better mobile UI */
+    padding-top: 70px;
+  }
+
+  .footer-col h3 {
+    font-size: 23px;
+  }
+
+  .footer-col p {
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 1.5;
+  }
+
+  .footer-col p {
+    font-size: 15px;
+  }
+
+  /* Social Icons Center */
+  .social-icons {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social-icons i {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Gallery Responsive */
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .gallery img {
+    height: 50px;
+  }
+
+  /* Bottom Bar */
+  .footer-bottom {
+    font-size: 13px;
+    line-height: 1.7;
+    padding: 10px;
+  }
+
+  /* Contact icons spacing */
+  .book,
+  .phone,
+  .message {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .mmm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .abou h2 {
+    font-size: 22px;
+
+  }
+
+  .abou p {
+    font-size: 16px;
+    width: 92%;
+    text-align: justify;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+
+  .abou {
+    margin-left: 20px;
+  }
+
+  .unplu img {
+    width: 90%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .unplu {
+    text-align: center;
+  }
+
+  .tri {
+    margin-left: 0;
+  }
+
+  .tri .have {
+    font-size: 20px;
+  }
+
+  .tri .check {
+    margin-left: 24px;
+  }
+
+  .thi{
+    width: 100%;
+  }
+
+  .thi h2{
+    margin-left: 25px;
+    font-size: 24px;
+  }
+
+  .thi p{
+    margin-left: 25px;
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .for{
+    padding-top: 30px;
+  }
+
+  .ser{
+    margin-left: 0;
+  }
+
+  .ser h2{
+    font-size: 25px;
+  }
+
+  .ser p{
+    font-size: 16px;
+  }
+
+  .rrr{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .srrr{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mpp{
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 410px) and (max-width:430px) {
+
+  .hero-content {
+
+    position: absolute;
+    top: 370px;
+    width: 100%;
+
+  }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 580px) {
+.navLinks,
+  .navButton {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #ffffff;
+  }
+
+  .navBar {
+    padding: 15px 20px;
+    height: 60px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: left 0.35s ease;
+    z-index: 200;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+
+  .navImages img {
+    width: 35%;
+  }
+
+  .navImage img {
+    width: 80%;
+    padding-top: 10px;
+    position: relative;
+    right: 9px;
+  }
+
+  .close-btn {
+    font-size: 28px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 25px;
+    color: black;
+    display: block;
+    margin-right: 50px;
+    color: #ffffff;
+  }
+
+  .side-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .side-link:hover {
+    color: #e8592a;
+  }
+
+
+  .gymbtn button {
+    background: #e8592a;
+    width: 88%;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+  }
+
+  .gymbtn button:hover {
+    background-color: #ffffff;
+    color: #e8592a;
+  }
+
+  .hero-content h1 {
+
+    font-size: 25px;
+    line-height: 1.8;
+    width: 85%;
+    margin: auto;
+
+  }
+
+  .hero-content {
+
+    position: absolute;
+    top: 345px;
+    width: 100%;
+
+  }
+
+  .hero-content button {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+
+  .body img {
+
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .sec img {
+
+    width: 100%;
+    display: block;
+    margin-top: -20px;
+  }
+
+  .allfit {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .yoga {
+    width: 75%;
+    padding-bottom: 33px;
+  }
+
+  .weight {
+    width: 75%;
+    padding-bottom: 38px;
+  }
+
+  .running {
+    width: 75%;
+  }
+
+  .jyh {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jour {
+    margin-left: 25px;
+    margin-top: 50px;
+
+  }
+
+  .jour p {
+    font-size: 16px;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .jour .you {
+    font-size: 25px;
+  }
+
+  .jour .here {
+    font-size: 25px;
+  }
+
+  .builder img {
+    width: 85%;
+    margin: auto;
+  }
+
+  .builder {
+    text-align: center;
+  }
+
+  .featured {
+    margin-top: 30px;
+    height: auto;
+    padding-bottom: 30px;
+
+  }
+
+  .swiper-button-next {
+    color: #e8592a !important;
+    width: 15px !important;
+    outline: none !important;
+    position: absolute;
+    top: 120px !important;
+  }
+
+  .swiper-button-prev {
+    color: #e8592a !important;
+    width: 15px !important;
+    outline: none !important;
+    top: 120px !important;
+  }
+
+
+  .card-info p {
+    position: relative;
+    right: 6px;
+  }
+
+  .card-info h2 {
+    font-size: 18px;
+  }
+
+  .card-item {
+    width: 83%;
+    margin-left: 25px;
+  }
+
+  .allweek {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 0;
+    gap: 10px;
+    margin: 30px;
+  }
+
+  .allweek button {
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  .bbs,
+  .bbh {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+    padding-bottom: 33px;
+    padding-top: 30px;
+  }
+
+  .bbs p,
+  .bbh p {
+    text-align: center;
+    padding-left: 0;
+    font-size: 19px;
+  }
+
+  .join button {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .gym {
+    margin-left: 0;
+    margin-top: 60px;
+    text-align: center;
+
+  }
+
+  .gym h1 {
+    font-size: 28px;
+  }
 
   .bmi h2 {
     font-size: 23px;
@@ -1871,34 +2455,1495 @@ color: white;
   .mpp{
     margin-top: 0;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
-@media (min-width: 410px) and (max-width:430px) {
+
+
+
+@media screen and (min-width: 581px) and (max-width:820px) {
+.navLinks,
+  .navButton {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 36px;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #ffffff;
+  }
+
+  .navBar {
+    padding: 15px 20px;
+    height: 120px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: left 0.35s ease;
+    z-index: 200;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+
+  .navImages img {
+    width: 29%;
+  }
+
+  .navImage img {
+    width: 200px;
+    padding-top: 10px;
+    position: relative;
+    right:1px;
+  }
+
+  .close-btn {
+    font-size: 28px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 25px;
+    color: black;
+    display: block;
+    margin-right: 50px;
+    color: #ffffff;
+  }
+
+  .side-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 12px 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .side-link:hover {
+    color: #e8592a;
+  }
+
+
+  .gymbtn button {
+    background: #e8592a;
+    width: 88%;
+    height: 60px;
+    font-size: 23px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+  }
+
+  .gymbtn button:hover {
+    background-color: #ffffff;
+    color: #e8592a;
+  }
+
+  .hero-content h1 {
+
+    font-size: 40px;
+    line-height: 1.8;
+    width: 90%;
+    margin: auto;
+
+  }
 
   .hero-content {
 
     position: absolute;
-    top: 370px;
+    top: 365px;
     width: 100%;
 
   }
+
+  .hero-content button {
+    font-size: 22px;
+    margin-top: 20px;
+    width: 30%;
+    height: 80px;
+  }
+
+
+  .body img {
+
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .sec img {
+
+    width: 100%;
+    display: block;
+    margin-top: -20px;
+  }
+
+  .allfit {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .yoga {
+    width: 60%;
+    padding-bottom: 33px;
+  }
+
+  .yoga h2{
+    font-size: 33px;
+  }
+
+  .yoga p{
+    font-size: 22px;
+  }
+
+  .praying{
+    font-size:45px;
+  }
+
+  .weight {
+    width: 60%;
+    padding-bottom: 38px;
+  }
+
+  .hanging{
+    font-size:45px;
+  }
+
+  .weight h2{
+    font-size: 33px;
+  }
+
+  .weight p{
+    font-size: 22px;
+  }
+
+  .praying{
+    font-size:45px;
+  }
+
+
+  .running {
+    width: 60%;
+  }
+
+  .person{
+    font-size:45px;
+  }
+
+
+  .running h2{
+    font-size: 33px;
+  }
+
+  .running p{
+    font-size: 22px;
+  }
+
+  .jyh {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jour {
+    margin-left: 40px;
+    margin-top: 50px;
+
+  }
+
+  .jour p {
+    font-size: 22px;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .jour .you {
+    font-size: 40px;
+  }
+
+  .jour .here {
+    font-size:40px;
+  }
+
+  .builder img {
+    width: 85%;
+    margin: auto;
+  }
+
+  .builder {
+    text-align: center;
+  }
+
+  .featured {
+    margin-top: 30px;
+    height: auto;
+    padding-bottom: 30px;
+
+  }
+
+  .featured h2{
+    font-size: 30px;
+  }
+
+  .featured p{
+    font-size: 21px;
+  }
+
+  .stan h2{
+    font-size: 30px;
+  }
+
+  .stan p{
+    font-size: 28px;
+  }
+
+  .stan article{
+    font-size: 25px;
+  }
+  
+
+  .card-image-container {
+
+  margin-left: 3px;
+}
+
+.debtn button{
+
+width: 50%;
+height: 60px;
+border-radius: 30px;
+border-radius: 30px;
+font-size: 20px;
+}
+
+  .swiper-button-next {
+    color: #e8592a !important;
+    width: 15px !important;
+    outline: none !important;
+    position: absolute;
+    top: 140px !important;
+  }
+
+  .swiper-button-prev {
+    color: #e8592a !important;
+    width: 15px !important;
+    outline: none !important;
+    top: 140px !important;
+  }
+
+
+  .card-info p {
+    position: relative;
+    right: 6px;
+  }
+
+  .card-info h2 {
+    font-size: 22px;
+  }
+
+  
+
+  .card-item {
+    width: 83%;
+    margin-left: 25px;
+  }
+
+  .allweek {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 0;
+    gap: 10px;
+    margin: 30px;
+  }
+
+
+
+
+  .allweek button {
+    width:90%;
+    height: 60px;
+    margin: auto;
+    font-size: 22px;
+  }
+
+  .bbs,
+  .bbh {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+    padding-bottom: 33px;
+    padding-top: 30px;
+  }
+
+  .bbs p,
+  .bbh p {
+    text-align: center;
+    padding-left: 0;
+    font-size: 23px;
+  }
+
+  .join button {
+    margin-top: 10px;
+    font-size: 17px;
+    width: 190px;
+    height: 50px;
+  }
+
+  .gym {
+    margin-left: 0;
+    margin-top: 60px;
+    text-align: center;
+
+  }
+
+  .gym h1 {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+
+  .bmi h2 {
+    font-size: 27px;
+    width: 90%;
+  }
+
+  .bmi p {
+    font-size: 22px;
+    width: 90%;
+  }
+
+  .tea h2{
+    font-size: 23px !important;
+    height: 60px;
+    width: 50%;
+    
+
+  }
+
+  .tea p{
+    font-size: 23px !important;
+    width: 50%;
+        height: 60px;
+        top: 67%;
+
+
+  }
+
+  .inp input::placeholder {
+    font-size: 11px;
+  }
+
+  .inp input {
+    font-size: 11px;
+
+  }
+
+  .bmi {
+    margin-left: 30px;
+  }
+
+  .rft {
+    margin-top: 90px;
+  }
+
+  .inp input {
+    width:90%;
+    height: 50px;
+    border-radius: 30px;
+  }
+
+  .inp input::placeholder{
+    font-size: 17px;
+  }
+
+  .allinp {
+    margin-right: 40px;
+  }
+
+  .inpbtn button {
+    font-size: 24px;
+    width: 30%;
+    height: 50px;
+  }
+
+  .tra h2{
+    font-size: 34px;
+  }
+
+  .sub button{
+
+    width: 40%;
+    height: 80px;
+    border-radius: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+
+  .tra p {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    line-height: 1.6;
+    font-size: 23px;
+  }
+
+  .york {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .tea {
+    margin-top: 0;
+    width: 70%;
+    height: auto;
+    
+  }
+
+  
+
+  .sub h1 {
+    font-size: 30px;
+    line-height: 1.4;
+
+  }
+
+  .sub {
+    width: 90%;
+    padding-left: 30px;
+    line-height: 1.7;
+
+  }
+
+
+
+  .sub p {
+    font-size: 23px;
+    width: 100%;
+    position: relative;
+    top: 16px;
+  }
+
+
+
+  .pri h1 {
+    font-size: 30px;
+  }
+
+  .plan p {
+    font-size: 23px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+
+  .stan{
+    width: 70%;
+    
+  }
+
+  .allstans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    margin-top: 90px;
+  }
+
+  .khb {
+    padding-bottom: 80px;
+  }
+
+  .testimonial-card {
+
+    margin-left: 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .testimonial-card img {
+    width: 15%;
+    height: 60%;
+
+  }
+
+  .testimonial-content .text {
+    text-align: justify;
+    width: 90%;
+    font-size: 22px;
+  }
+
+  .testimonial-content {
+    margin-left: 10px;
+  }
+
+  .testimonial-content h3{
+
+  font-size: 30px;
+  }
+
+
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .testimonial-content {
+
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiper {
+    overflow: hidden !important;
+    padding-bottom: 35px !important;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    /* 👈 4 columns → 1 column */
+    gap: 25px;
+    padding: 30px 20px;
+    margin-top: 55px;
+    text-align: center;
+    /* 👈 better mobile UI */
+    padding-top: 70px;
+  }
+
+  .footer-col h3 {
+    font-size: 31px;
+  }
+
+  .footer-col p {
+    padding-top: 10px;
+    line-height: 1.5;
+  }
+
+  .footer-col p {
+    font-size: 21px;
+    width: 80%;
+    margin: auto;
+  }
+
+  /* Social Icons Center */
+  .social-icons {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social-icons i {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Gallery Responsive */
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .gallery img {
+    height: 50px;
+  }
+
+  /* Bottom Bar */
+  .footer-bottom {
+    font-size: 21px;
+    line-height: 1.7;
+    padding: 10px;
+  }
+
+  /* Contact icons spacing */
+  .book,
+  .phone,
+  .message {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .mmm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .abou h2 {
+    font-size: 32px;
+
+  }
+
+  .abou p {
+    font-size: 21px;
+    width: 92%;
+    text-align: justify;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+
+  .abou {
+    margin-left: 20px;
+  }
+
+  .unplu img {
+    width: 90%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .unplu {
+    text-align: center;
+  }
+
+  .tri {
+    margin-left: 0;
+  }
+
+  .tri p{
+    font-size: 22px;
+  }
+
+
+  .tri .have {
+    font-size: 25px;
+  }
+
+  .tri .check {
+    margin-left: 24px;
+    font-size: 27px;
+  }
+
+  .thi{
+    width: 100%;
+  }
+
+  .thi h2{
+    margin-left: 25px;
+    font-size: 32px;
+  }
+
+  .thi p{
+    margin-left: 25px;
+    width: 90%;
+    font-size: 22px;
+  }
+
+  .for{
+    padding-top: 30px;
+  }
+
+  .ser{
+    margin-left: 0;
+  }
+
+  .ser h2{
+    font-size: 32px;
+  }
+
+  .run{
+    width: 70%;
+    height: 400px;
+  }
+
+  .run h2{
+    font-size: 32px;
+  }
+
+  .run p{
+    font-size: 23px;
+    line-height: 2.0;
+    
+  }
+
+  .ser p{
+    font-size: 21px;
+  }
+
+  .rrr{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .srrr{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mpp{
+    margin-top: 0;
+  }
+}
+
+
+
+@media screen and (min-width: 821px) and (max-width:920px) {
+.navLinks,
+  .navButton {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 36px;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #ffffff;
+  }
+
+  .navBar {
+    padding: 15px 20px;
+    height: 120px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: left 0.35s ease;
+    z-index: 200;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+
+  .navImages img {
+    width: 29%;
+  }
+
+  .navImage img {
+    width: 200px;
+    padding-top: 10px;
+    position: relative;
+    right:1px;
+  }
+
+  .close-btn {
+    font-size: 28px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 25px;
+    color: black;
+    display: block;
+    margin-right: 50px;
+    color: #ffffff;
+  }
+
+  .side-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 12px 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .side-link:hover {
+    color: #e8592a;
+  }
+
+
+  .gymbtn button {
+    background: #e8592a;
+    width: 88%;
+    height: 60px;
+    font-size: 23px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+  }
+
+  .gymbtn button:hover {
+    background-color: #ffffff;
+    color: #e8592a;
+  }
+
+  .hero-content h1 {
+
+    font-size: 40px;
+    line-height: 1.8;
+    width: 90%;
+    margin: auto;
+
+  }
+
+  .hero-content {
+
+    position: absolute;
+    top: 435px;
+    width: 100%;
+
+  }
+
+  .hero-content button {
+    font-size: 22px;
+    margin-top: 20px;
+    width: 30%;
+    height: 80px;
+  }
+
+
+  .body img {
+
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .sec img {
+
+    width: 100%;
+    display: block;
+    margin-top: -20px;
+  }
+
+  .allfit {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .yoga {
+    width: 60%;
+    padding-bottom: 33px;
+  }
+
+  .yoga h2{
+    font-size: 33px;
+  }
+
+  .yoga p{
+    font-size: 22px;
+  }
+
+  .praying{
+    font-size:45px;
+  }
+
+  .weight {
+    width: 60%;
+    padding-bottom: 38px;
+  }
+
+  .hanging{
+    font-size:45px;
+  }
+
+  .weight h2{
+    font-size: 33px;
+  }
+
+  .weight p{
+    font-size: 22px;
+  }
+
+  .praying{
+    font-size:45px;
+  }
+
+
+  .running {
+    width: 60%;
+  }
+
+  .person{
+    font-size:45px;
+  }
+
+
+  .running h2{
+    font-size: 33px;
+  }
+
+  .running p{
+    font-size: 22px;
+  }
+
+  .jyh {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jour {
+    margin-left: 40px;
+    margin-top: 50px;
+
+  }
+
+  .jour p {
+    font-size: 22px;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .jour .you {
+    font-size: 40px;
+  }
+
+  .jour .here {
+    font-size:40px;
+  }
+
+  .builder img {
+    width: 85%;
+    margin: auto;
+  }
+
+  .builder {
+    text-align: center;
+  }
+
+  .featured {
+    margin-top: 30px;
+    height: auto;
+    padding-bottom: 30px;
+
+  }
+
+  .featured h2{
+    font-size: 30px;
+  }
+
+  .featured p{
+    font-size: 21px;
+  }
+
+  .stan h2{
+    font-size: 30px;
+  }
+
+  .stan p{
+    font-size: 28px;
+  }
+
+  .stan article{
+    font-size: 25px;
+  }
+  
+
+  .card-image-container {
+
+  margin-left: 3px;
+}
+
+.debtn button{
+
+width: 50%;
+height: 60px;
+border-radius: 30px;
+border-radius: 30px;
+font-size: 20px;
+}
+
+  .swiper-button-next {
+    color: #e8592a !important;
+    width: 15px !important;
+    outline: none !important;
+    position: absolute;
+    top: 140px !important;
+  }
+
+  .swiper-button-prev {
+    color: #e8592a !important;
+    width: 15px !important;
+    outline: none !important;
+    top: 140px !important;
+  }
+
+
+  .card-info p {
+    position: relative;
+    right: 6px;
+  }
+
+  .card-info h2 {
+    font-size: 22px;
+  }
+
+  
+
+  .card-item {
+    width: 83%;
+    margin-left: 25px;
+  }
+
+  .allweek {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 0;
+    gap: 10px;
+    margin: 30px;
+  }
+
+
+
+
+  .allweek button {
+    width:90%;
+    height: 60px;
+    margin: auto;
+    font-size: 22px;
+  }
+
+  .bbs,
+  .bbh {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+    padding-bottom: 33px;
+    padding-top: 30px;
+  }
+
+  .bbs p,
+  .bbh p {
+    text-align: center;
+    padding-left: 0;
+    font-size: 23px;
+  }
+
+  .join button {
+    margin-top: 10px;
+    font-size: 17px;
+    width: 190px;
+    height: 50px;
+  }
+
+  .gym {
+    margin-left: 0;
+    margin-top: 60px;
+    text-align: center;
+
+  }
+
+  .gym h1 {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+
+  .bmi h2 {
+    font-size: 27px;
+    width: 90%;
+  }
+
+  .bmi p {
+    font-size: 22px;
+    width: 90%;
+  }
+
+  .tea h2{
+    font-size: 23px !important;
+    height: 60px;
+    width: 50%;
+    
+
+  }
+
+  .tea p{
+    font-size: 23px !important;
+    width: 50%;
+        height: 60px;
+        top: 67%;
+
+
+  }
+
+  .inp input::placeholder {
+    font-size: 11px;
+  }
+
+  .inp input {
+    font-size: 11px;
+
+  }
+
+  .bmi {
+    margin-left: 30px;
+  }
+
+  .rft {
+    margin-top: 90px;
+  }
+
+  .inp input {
+    width:90%;
+    height: 50px;
+    border-radius: 30px;
+  }
+
+  .inp input::placeholder{
+    font-size: 17px;
+  }
+
+  .allinp {
+    margin-right: 40px;
+  }
+
+  .inpbtn button {
+    font-size: 24px;
+    width: 30%;
+    height: 50px;
+  }
+
+  .tra h2{
+    font-size: 34px;
+  }
+
+  .sub button{
+
+    width: 40%;
+    height: 80px;
+    border-radius: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+
+  .tra p {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    line-height: 1.6;
+    font-size: 23px;
+  }
+
+  .york {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .tea {
+    margin-top: 0;
+    width: 70%;
+    height: auto;
+    
+  }
+
+  
+
+  .sub h1 {
+    font-size: 30px;
+    line-height: 1.4;
+
+  }
+
+  .sub {
+    width: 90%;
+    padding-left: 30px;
+    line-height: 1.7;
+
+  }
+
+
+
+  .sub p {
+    font-size: 23px;
+    width: 100%;
+    position: relative;
+    top: 16px;
+  }
+
+
+
+  .pri h1 {
+    font-size: 30px;
+  }
+
+  .plan p {
+    font-size: 23px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+
+  .stan{
+    width: 70%;
+    
+  }
+
+  .allstans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    margin-top: 90px;
+  }
+
+  .khb {
+    padding-bottom: 80px;
+  }
+
+  .testimonial-card {
+
+    margin-left: 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .testimonial-card img {
+    width: 15%;
+    height: 60%;
+
+  }
+
+  .testimonial-content .text {
+    text-align: justify;
+    width: 90%;
+    font-size: 22px;
+  }
+
+  .testimonial-content {
+    margin-left: 10px;
+  }
+
+  .testimonial-content h3{
+
+  font-size: 30px;
+  }
+
+
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .testimonial-content {
+
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiper {
+    overflow: hidden !important;
+    padding-bottom: 35px !important;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    /* 👈 4 columns → 1 column */
+    gap: 25px;
+    padding: 30px 20px;
+    margin-top: 55px;
+    text-align: center;
+    /* 👈 better mobile UI */
+    padding-top: 70px;
+  }
+
+  .footer-col h3 {
+    font-size: 31px;
+  }
+
+  .footer-col p {
+    padding-top: 10px;
+    line-height: 1.5;
+  }
+
+  .footer-col p {
+    font-size: 21px;
+    width: 80%;
+    margin: auto;
+  }
+
+  /* Social Icons Center */
+  .social-icons {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social-icons i {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Gallery Responsive */
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .gallery img {
+    height: 50px;
+  }
+
+  /* Bottom Bar */
+  .footer-bottom {
+    font-size: 21px;
+    line-height: 1.7;
+    padding: 10px;
+  }
+
+  /* Contact icons spacing */
+  .book,
+  .phone,
+  .message {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .mmm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .abou h2 {
+    font-size: 32px;
+
+  }
+
+  .abou p {
+    font-size: 21px;
+    width: 92%;
+    text-align: justify;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+
+  .abou {
+    margin-left: 20px;
+  }
+
+  .unplu img {
+    width: 90%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .unplu {
+    text-align: center;
+  }
+
+  .tri {
+    margin-left: 0;
+  }
+
+  .tri p{
+    font-size: 22px;
+  }
+
+
+  .tri .have {
+    font-size: 25px;
+  }
+
+  .tri .check {
+    margin-left: 24px;
+    font-size: 27px;
+  }
+
+  .thi{
+    width: 100%;
+  }
+
+  .thi h2{
+    margin-left: 25px;
+    font-size: 32px;
+  }
+
+  .thi p{
+    margin-left: 25px;
+    width: 90%;
+    font-size: 22px;
+  }
+
+  .for{
+    padding-top: 30px;
+  }
+
+  .ser{
+    margin-left: 0;
+  }
+
+  .ser h2{
+    font-size: 32px;
+  }
+
+  .run{
+    width: 70%;
+    height: 400px;
+  }
+
+  .run h2{
+    font-size: 32px;
+  }
+
+  .run p{
+    font-size: 23px;
+    line-height: 2.0;
+    
+  }
+
+  .ser p{
+    font-size: 21px;
+  }
+
+  .rrr{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .srrr{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mpp{
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 921px) and (max-width:1030px) {
+
+}
+
+@media screen and (min-width:1031px) and (max-width:1300px) {
 
 }

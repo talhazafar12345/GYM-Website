@@ -1,8 +1,4 @@
 
-
-
-
-
 function Hero20() {
     return (
         <div>

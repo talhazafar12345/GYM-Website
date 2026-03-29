@@ -20,14 +20,14 @@ function Hero6() {
   className="card-swiper"
   modules={[Navigation]}
   navigation
-  spaceBetween={17}
+  spaceBetween={-24}
   slidesPerView={3}
   grabCursor={true}
   loop={true}
   breakpoints={{
     0: { slidesPerView: 1 },
     500: { slidesPerView: 1 },
-    768: { slidesPerView: 3 },
+    768: { slidesPerView: 2 },
     1024: { slidesPerView: 3 },
   }}
 >
