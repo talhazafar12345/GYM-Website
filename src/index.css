@@ -2022,6 +2022,17 @@ color: white;
     width: 75%;
   }
 
+  .run {
+    width: 80%;
+    height:auto;
+    border-radius: 30px;
+  }
+
+  .run p{
+    line-height: 2.0;
+  }
+
+
   .jyh {
     flex-direction: column;
     align-items: center;
@@ -2089,8 +2100,8 @@ color: white;
   }
 
   .card-item {
-    width: 83%;
-    margin-left: 25px;
+    width: 87%;
+    margin-left: 29px;
   }
 
   .allweek {
@@ -2506,7 +2517,7 @@ color: white;
     width: 200px;
     padding-top: 10px;
     position: relative;
-    right:1px;
+    right:8px;
   }
 
   .close-btn {
@@ -2523,7 +2534,7 @@ color: white;
   .side-link {
     text-decoration: none;
     color: #ffffff;
-    margin: 12px 0;
+    margin: 24px 0;
     font-size: 25px;
     font-weight: bold;
   }
@@ -2562,7 +2573,7 @@ color: white;
   .hero-content {
 
     position: absolute;
-    top: 365px;
+    top: 430px;
     width: 100%;
 
   }
@@ -2710,12 +2721,7 @@ color: white;
     font-size: 25px;
   }
   
-
-  .card-image-container {
-
-  margin-left: 3px;
-}
-
+  
 .debtn button{
 
 width: 50%;
@@ -2754,7 +2760,9 @@ font-size: 20px;
 
   .card-item {
     width: 83%;
-    margin-left: 25px;
+    margin-left: 20px;
+    position: relative;
+    left: 8px;
   }
 
   .allweek {
@@ -3006,6 +3014,7 @@ font-size: 20px;
     position: relative;
   }
 
+  
   .testimonial-content {
 
     gap: 10px;
@@ -3069,7 +3078,7 @@ font-size: 20px;
   }
 
   .gallery img {
-    height: 50px;
+    height: 80px;
   }
 
   /* Bottom Bar */
@@ -3232,6 +3241,7 @@ font-size: 20px;
     padding: 20px;
     transition: left 0.35s ease;
     z-index: 200;
+  
   }
 
   .sidebar.open {
@@ -3247,7 +3257,7 @@ font-size: 20px;
     width: 200px;
     padding-top: 10px;
     position: relative;
-    right:1px;
+    right:5px;
   }
 
   .close-btn {
@@ -3264,7 +3274,7 @@ font-size: 20px;
   .side-link {
     text-decoration: none;
     color: #ffffff;
-    margin: 12px 0;
+    margin: 24px 0;
     font-size: 25px;
     font-weight: bold;
   }
@@ -3496,6 +3506,8 @@ font-size: 20px;
   .card-item {
     width: 83%;
     margin-left: 25px;
+    position: relative;
+    left: 3px;
   }
 
   .allweek {
@@ -3810,7 +3822,7 @@ font-size: 20px;
   }
 
   .gallery img {
-    height: 50px;
+    height: 100px;
   }
 
   /* Bottom Bar */

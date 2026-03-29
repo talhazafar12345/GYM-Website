@@ -20,15 +20,16 @@ function Hero6() {
   className="card-swiper"
   modules={[Navigation]}
   navigation
-  spaceBetween={-24}
   slidesPerView={3}
   grabCursor={true}
   loop={true}
   breakpoints={{
     0: { slidesPerView: 1 },
     500: { slidesPerView: 1 },
-    768: { slidesPerView: 2 },
-    1024: { slidesPerView: 3 },
+     540: { slidesPerView: 1 },
+    768: { slidesPerView: 2,spaceBetween:-22 },
+    820: { slidesPerView: 2,spaceBetween:-22 },
+    1024: { slidesPerView: 3, spaceBetween:17 },
   }}
 >
           {cardsData.map((card) => (
@@ -43,7 +44,6 @@ function Hero6() {
                     <button className="details-btn">Details</button>
                   </div>
                 </div>
-
                 {/* Info below image */}
                 <div className="card-info">
                   <h2>{card.name}</h2>
